@@ -36,7 +36,7 @@ A3W_atmMaxBalance = 250000;       // Maximum amount of money that can be stored 
 A3W_atmTransferFee = 10;            // Fee in percent charged to players for money transfers to other players (0 to 50)
 A3W_atmTransferAllTeams = 0;       // Allow money transfers between players of all teams/sides (0 = same team only, 1 = all teams)
 A3W_atmEditorPlacedOnly = 0;       // Only allow access via ATMs placed from the mission editor (0 = all ATMs from towns & editor allowed, 1 = ATMs from editor only) Note: Stratis has no town ATMs, only editor ones.
-A3W_atmMapIcons = 0;               // Draw small icons on the map that indicate ATM locations (0 = no, 1 = yes)
+A3W_atmMapIcons = 1;               // Draw small icons on the map that indicate ATM locations (0 = no, 1 = yes)
 A3W_atmRemoveIfDisabled = 0;       // Remove all ATMs from map if A3W_atmEnabled is set to 0 (0 = no, 1 = yes)
 
 A3W_healthTime = 60*5;             //seconds till death
@@ -68,12 +68,12 @@ A3W_vehicleMaxUnusedTime = 2*24;   // Maximum parking time in hours after which 
 A3W_storageLifetime = 0;           // Maximum lifetime in horus for player's private storage (0 = no time limit)
 
 PDB_PlayerFileID = "A3W_";         // Player savefile prefix (change this in case you run multiple servers from the same folder)
-PDB_ObjectFileID = "A3W_";         // Object savefile prefix (change this in case you run multiple servers from the same folder)
-PDB_VehicleFileID = "A3W_";        // Vehicle savefile prefix (change this in case you run multiple servers from the same folder)
-PDB_MessagesFileID = "A3W_";       // Messages savefile prefix (change this in case you run multiple servers from the same folder)
-PDB_AdminLogFileID = "A3W_";       // Admin log savefile prefix (change this in case you run multiple servers from the same folder)
-PDB_HackerLogFileID = "A3W_";      // Hacker log savefile prefix (change this in case you run multiple servers from the same folder)
-PDB_PlayersListFileID = "A3W_";    // PlayerList savefile prefix (change this in case you run multiple servers from the same folder)
+PDB_ObjectFileID = "A3W4_";         // Object savefile prefix (change this in case you run multiple servers from the same folder)
+PDB_VehicleFileID = "A3W4_";        // Vehicle savefile prefix (change this in case you run multiple servers from the same folder)
+PDB_MessagesFileID = "A3W4_";       // Messages savefile prefix (change this in case you run multiple servers from the same folder)
+PDB_AdminLogFileID = "A3W4_";       // Admin log savefile prefix (change this in case you run multiple servers from the same folder)
+PDB_HackerLogFileID = "A3W4_";      // Hacker log savefile prefix (change this in case you run multiple servers from the same folder)
+PDB_PlayersListFileID = "A3W4_";    // PlayerList savefile prefix (change this in case you run multiple servers from the same folder)
 
 A3W_vehicle_saveInterval = 1200;    // Number of seconds between vehicle saves
 A3W_object_saveInterval = 1200;     // Number of seconds between object saves
@@ -87,7 +87,7 @@ A3W_autosave_vehicles_list = ["B_MRAP_01_hmg_F", "B_MRAP_01_gmg_F", "O_MRAP_02_h
 // Spawning settings
 A3W_serverSpawning = 1;            // Vehicle, object, and loot spawning (0 = no, 1 = yes)
 A3W_vehicleSpawning = 1;           // If serverSpawning = 1, spawn vehicles in towns (0 = no, 1 = yes)
-A3W_vehicleQuantity = 225;         // Approximate number of land vehicles to be spawned in towns
+A3W_vehicleQuantity = 200;         // Approximate number of land vehicles to be spawned in towns
 A3W_boatSpawning = 1;              // If serverSpawning = 1, spawn boats at marked areas near coasts (0 = no, 1 = yes)
 A3W_heliSpawning = 1;              // If serverSpawning = 1, spawn helicopters in some towns and airfields (0 = no, 1 = yes)
 A3W_planeSpawning = 1;             // If serverSpawning = 1, spawn planes at some airfields (0 = no, 1 = yes)
