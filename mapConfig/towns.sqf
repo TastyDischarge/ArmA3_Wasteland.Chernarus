@@ -22,12 +22,16 @@
 	["Town_14", 200, "Kozlovka"],
 	["Town_15", 200, "Tulga"],
 	["Town_16", 200, "Sosnovka"],
+	//["Town_17", 200, "Pustoshka"],
 	["Town_18", 100, "Kavanino"],
 	["Town_19", 200, "Novy Sobor"],
 	["Town_20", 300, "Gorka"],
+	//["Town_21", 200, "Polana"],
 	["Town_22", 200, "Lopatino"],
 	["Town_23", 200, "Khelm"],
 	["Town_24", 200, "Nizhnoye"],
+	//["Town_25", 200, "Kamyshovo"],
 	["Town_26", 200, "Balto"],
+	//["Town_27", 200, "Komarovo"],
 	["Town_28", 200, "Gvozdno"]
 ]
